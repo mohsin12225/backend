@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EduAI — Smart Exam Preparation</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Mermaid.js (load once) -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+      // Initialize once
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: "dark",
+        themeVariables: {
+          primaryColor: "#6366f1",
+          primaryTextColor: "#e5e7eb",
+          primaryBorderColor: "#4f46e5",
+          lineColor: "#6b7280",
+          secondaryColor: "#1e1b4b",
+          tertiaryColor: "#1f2937",
+          background: "#111827",
+          mainBkg: "#1f2937",
+          nodeBorder: "#4f46e5",
+          clusterBkg: "#1f2937",
+          titleColor: "#e5e7eb",
+          edgeLabelBackground: "#1f2937"
+        }
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
